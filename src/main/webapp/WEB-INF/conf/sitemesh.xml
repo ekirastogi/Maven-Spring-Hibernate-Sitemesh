@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+	
+<!-- 
+	<mapping path="/admin**" decorator="/WEB-INF/layout/admin.jsp" />
+	<mapping path="/user**" decorator="/WEB-INF/layout/user.jsp" />
+-->
+	 
+	<mapping path="/**" decorator="/WEB-INF/layout/main.jsp" />
+</sitemesh>

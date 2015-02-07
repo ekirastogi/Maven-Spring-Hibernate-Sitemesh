@@ -29,7 +29,8 @@
 
 	<mvc:resources location="/resources/css/" mapping="/css/**" />
 	<mvc:resources location="/resources/js/" mapping="/js/**" />
-	<mvc:resources location="/WEB-INF/studyRoom/" mapping="/WEB-INF/studyRoom/**" />
+	<mvc:resources location="/resources/fonts/" mapping="/fonts/**" />
+	<mvc:resources location="/resources/images/" mapping="/images/**" />
 
 	<bean id="jspViewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
